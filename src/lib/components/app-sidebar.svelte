@@ -46,7 +46,7 @@
 							</div> -->
 							<div class="flex flex-col gap-0.5 leading-none">
 								<span class="font-medium">Svelte Resources</span>
-								<span class="text-xs text-muted-foreground"> Built by Bhide Svelte </span>
+								<span class="font-mono text-xs text-muted-foreground"> Built by Bhide Svelte </span>
 							</div>
 						</a>
 					{/snippet}
