@@ -57,5 +57,5 @@
 	<Sidebar.Content>
 		<NavMain />
 	</Sidebar.Content>
-	<Sidebar.Rail />
+	<!-- <Sidebar.Rail /> -->
 </Sidebar.Root>
