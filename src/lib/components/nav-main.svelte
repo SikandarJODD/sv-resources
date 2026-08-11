@@ -1,9 +1,7 @@
 <script lang="ts">
-	import HouseIcon from '@lucide/svelte/icons/house';
-	import SparklesIcon from '@lucide/svelte/icons/sparkles';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
 	import type { Component } from 'svelte';
-	import { LibraryIcon, ComponentIcon } from './icons';
+	import { LibraryIcon, ComponentIcon, HomeIcon } from './icons';
 
 	type NavItem = {
 		title: string;
@@ -17,7 +15,7 @@
 		{
 			title: 'Home',
 			url: '/',
-			icon: HouseIcon
+			icon: HomeIcon
 		},
 		{
 			title: 'Library',
