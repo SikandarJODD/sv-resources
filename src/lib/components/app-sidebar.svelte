@@ -39,11 +39,11 @@
 				<Sidebar.MenuButton size="lg">
 					{#snippet child({ props })}
 						<a href="##" {...props}>
-							<div
+							<!-- <div
 								class="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground"
 							>
 								<GalleryVerticalEndIcon class="size-4" />
-							</div>
+							</div> -->
 							<div class="flex flex-col gap-0.5 leading-none">
 								<span class="font-medium">Svelte Resources</span>
 								<span class="text-xs text-muted-foreground"> Built by Bhide Svelte </span>
