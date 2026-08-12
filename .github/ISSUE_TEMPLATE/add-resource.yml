@@ -1,0 +1,28 @@
+name: Add a resource
+description: Suggest a Svelte resource by submitting its JSON data.
+title: 'Add resource: '
+body:
+  - type: textarea
+    id: resource
+    attributes:
+      label: Resource JSON
+      description: >-
+        Paste one JSON object. Valid kinds are library, component-library,
+        component-collection, and tool. Valid categories are ui, forms, animation,
+        charts, icons, authentication, state-management, testing, utilities, and data.
+      render: json
+      placeholder: |
+        {
+          "slug": "example-resource",
+          "name": "Example Resource",
+          "description": "A short description of the resource.",
+          "url": "https://example.com/",
+          "github": "https://github.com/owner/example-resource",
+          "npm": "https://www.npmjs.com/package/example-resource",
+          "kinds": ["library"],
+          "categories": ["utilities"],
+          "tags": ["example", "svelte"],
+          "featured": false
+        }
+    validations:
+      required: true

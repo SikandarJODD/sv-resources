@@ -2,6 +2,7 @@ import type { HTMLAttributes } from 'svelte/elements';
 
 import LibraryIcon from './library-icon.svelte';
 import ComponentIcon from './component-icon.svelte';
+import GithubIcon from './github-icon.svelte';
 import HomeIcon from './home-icon.svelte';
 
 export interface SVGProps extends HTMLAttributes<SVGElement> {
@@ -10,4 +11,4 @@ export interface SVGProps extends HTMLAttributes<SVGElement> {
 	height?: number;
 }
 
-export { LibraryIcon, ComponentIcon, HomeIcon };
+export { LibraryIcon, ComponentIcon, GithubIcon, HomeIcon };
