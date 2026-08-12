@@ -1,91 +1,45 @@
-# Resource commands
+# Resource import
 
-## Add one resource
-
-Create `resource.json` in the project root:
-
-```json
-{
-	"slug": "example-library",
-	"name": "Example Library",
-	"description": "A short description of the resource.",
-	"url": "https://example.com",
-	"github": "https://github.com/example/example-library",
-	"npm": "example-library",
-	"kinds": ["library"],
-	"categories": ["utilities"],
-	"tags": ["typescript"],
-	"featured": false
-}
-```
-
-Then run:
+Import `resource.json`:
 
 ```sh
 pnpm resource:add
 ```
 
-## Add multiple resources
-
-Use a JSON array instead:
-
-```json
-[
-	{
-		"slug": "first-library",
-		"name": "First Library",
-		"description": "The first resource.",
-		"url": "https://first.example.com",
-		"kinds": ["library"],
-		"categories": ["utilities"],
-		"tags": []
-	},
-	{
-		"slug": "second-library",
-		"name": "Second Library",
-		"description": "The second resource.",
-		"url": "https://second.example.com",
-		"kinds": ["component-library"],
-		"categories": ["ui"],
-		"tags": ["accessible"]
-	}
-]
-```
-
-Run the same command:
+Import another file:
 
 ```sh
-pnpm resource:add
+pnpm resource:add -- --input ./data/resources.json
 ```
 
-You can also provide a different input path:
+Useful options:
 
 ```sh
-pnpm resource:add ./data/new-resources.json
+--unknown-values drop  # Remove unsupported kinds/categories
+--skip-invalid         # Skip invalid resources
+--skip-existing        # Skip slugs already imported
+--dry-run              # Validate without writing
+--help                 # Show options and valid values
 ```
 
-The script validates the JSON, creates one typed file per resource in `src/lib/content/resources`, and runs `pnpm check`. Imports are atomic: if any resource already exists, the script lists every existing slug and adds nothing. It never merges with or overwrites an existing resource. If project validation fails, no new resource files are kept. The input JSON is not changed or deleted.
+Example:
 
-Valid kinds and categories are defined in `src/lib/content/schema.ts`.
+```sh
+pnpm resource:add -- --input resources.json --unknown-values drop --skip-invalid --skip-existing --dry-run
+```
+
+Imports are validated and never overwrite existing resource files.
 
 ---
 
-JSON TYPE
+Important Dry Run Example:
 
-```ts
-type Resource = {
-	slug: string;
-	name: string;
-	description: string;
-	url: string;
-	github?: string;
-	npm?: string;
-	kinds: ResourceKind[];
-	categories: ResourceCategory[];
-	tags: string[];
-	featured?: boolean;
-};
+```sh
+pnpm resource:add -- --input resource.json --unknown-values drop --skip-invalid --skip-existing --dry-run
+```
 
-type ResourceKind = "library" | "component-library" | "tool" | "framework" | "other";
-type ResourceCategory = "utilities" | "ui" | "data" | "testing" | "other";
+Run:
+
+```sh
+pnpm resource:add -- --input resource.json --unknown-values drop --skip-invalid --skip-existing
 ```

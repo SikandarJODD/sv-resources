@@ -9,7 +9,8 @@ export const resourceCategories = [
 	'authentication',
 	'state-management',
 	'testing',
-	'utilities'
+	'utilities',
+	'data'
 ] as const;
 
 export type ResourceCategory = (typeof resourceCategories)[number];
