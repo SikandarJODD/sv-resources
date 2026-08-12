@@ -89,7 +89,7 @@
 		</InputGroup.Root>
 
 		<p class="text-sm text-muted-foreground" aria-live="polite">
-			{searchResults.length}
+			<span class="font-mono">{searchResults.length}</span>
 			{searchResults.length === 1 ? 'resource' : 'resources'}
 		</p>
 	</section>
