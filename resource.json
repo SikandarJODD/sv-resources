@@ -1,0 +1,1293 @@
+[
+  {
+    "slug": "svelte-sonner",
+    "name": "Svelte Sonner",
+    "description": "An opinionated toast component for Svelte, ported from Sonner.",
+    "url": "https://svelte-sonner.vercel.app",
+    "github": "https://github.com/wobsoriano/svelte-sonner",
+    "npm": "svelte-sonner",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "toast", "notifications", "ui"],
+    "featured": true
+  },
+  {
+    "slug": "mdsvex",
+    "name": "mdsvex",
+    "description": "Markdown for Svelte - lets you write Svelte components inside Markdown files.",
+    "url": "https://mdsvex.pngwn.io",
+    "github": "https://github.com/pngwn/MDsveX",
+    "npm": "mdsvex",
+    "kinds": ["library", "tool"],
+    "categories": ["utilities", "other"],
+    "tags": ["svelte", "markdown", "mdx", "content"],
+    "featured": true
+  },
+  {
+    "slug": "embla-carousel-svelte",
+    "name": "Embla Carousel Svelte",
+    "description": "A fluid, extensible carousel plugin wrapper for Svelte powered by Embla Carousel.",
+    "url": "https://www.embla-carousel.com/docs/get-started/svelte",
+    "github": "https://github.com/davidjerleke/embla-carousel",
+    "npm": "embla-carousel-svelte",
+    "kinds": ["library", "component-library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "carousel", "slider", "touch"],
+    "featured": true
+  },
+  {
+    "slug": "felte",
+    "name": "Felte",
+    "description": "An extensible form library for Svelte and SvelteKit with support for Zod, Yup, and Superstruct.",
+    "url": "https://felte.dev",
+    "github": "https://github.com/pablo-abc/felte",
+    "npm": "@felte/svelte",
+    "kinds": ["library"],
+    "categories": ["utilities", "data"],
+    "tags": ["svelte", "forms", "validation", "form-management"],
+    "featured": true
+  },
+  {
+    "slug": "mode-watcher",
+    "name": "Mode Watcher",
+    "description": "Simple and light/dark theme management component and utilities for Svelte.",
+    "url": "https://github.com/sveltenexus/mode-watcher",
+    "github": "https://github.com/sveltenexus/mode-watcher",
+    "npm": "mode-watcher",
+    "kinds": ["library"],
+    "categories": ["utilities", "ui"],
+    "tags": ["svelte", "dark-mode", "theme", "color-scheme"],
+    "featured": true
+  },
+  {
+    "slug": "svelte-select",
+    "name": "Svelte Select",
+    "description": "A select component for Svelte with support for autocomplete, multi-select, and virtual lists.",
+    "url": "https://github.com/rob-balfre/svelte-select",
+    "github": "https://github.com/rob-balfre/svelte-select",
+    "npm": "svelte-select",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "select", "dropdown", "autocomplete"]
+  },
+  {
+    "slug": "svelte-i18n",
+    "name": "svelte-i18n",
+    "description": "Internationalization library for Svelte that uses stores for reactive translations.",
+    "url": "https://github.com/aisensei/svelte-i18n",
+    "github": "https://github.com/aisensei/svelte-i18n",
+    "npm": "svelte-i18n",
+    "kinds": ["library"],
+    "categories": ["utilities"],
+    "tags": ["svelte", "i18n", "localization", "translation"]
+  },
+  {
+    "slug": "paraglide-js",
+    "name": "Paraglide JS",
+    "description": "A compiler-based i18n library that emits tree-shakeable message functions for Svelte and SvelteKit.",
+    "url": "https://inlang.com",
+    "github": "https://github.com/opral/inlang-paraglide-js",
+    "npm": "@inlang/paraglide-sveltekit",
+    "kinds": ["library", "tool"],
+    "categories": ["utilities"],
+    "tags": ["svelte", "sveltekit", "i18n", "localization", "compiler"]
+  },
+  {
+    "slug": "svelte-meta-tags",
+    "name": "Svelte Meta Tags",
+    "description": "A plugin that makes managing your SEO meta tags in Svelte easy and straightforward.",
+    "url": "https://github.com/oSuper/svelte-meta-tags",
+    "github": "https://github.com/oSuper/svelte-meta-tags",
+    "npm": "svelte-meta-tags",
+    "kinds": ["library"],
+    "categories": ["utilities", "other"],
+    "tags": ["svelte", "seo", "meta-tags", "open-graph"]
+  },
+  {
+    "slug": "svelte-splitpanes",
+    "name": "Svelte Splitpanes",
+    "description": "A reliable resizable split panes component written specifically for Svelte.",
+    "url": "https://svelte-splitpanes.vercel.app",
+    "github": "https://github.com/vegarringdal/svelte-splitpanes",
+    "npm": "svelte-splitpanes",
+    "kinds": ["component-library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "splitpanes", "resizable", "layout"]
+  },
+  {
+    "slug": "svelte-persisted-store",
+    "name": "Svelte Persisted Store",
+    "description": "A Svelte store that automatically synchronizes its value with localStorage or sessionStorage.",
+    "url": "https://github.com/joshnuss/svelte-persisted-store",
+    "github": "https://github.com/joshnuss/svelte-persisted-store",
+    "npm": "svelte-persisted-store",
+    "kinds": ["library"],
+    "categories": ["utilities", "data"],
+    "tags": ["svelte", "store", "localstorage", "persistence"]
+  },
+  {
+    "slug": "number-flow",
+    "name": "Number Flow",
+    "description": "A component to transition, format, and localize numbers smoothly in Svelte.",
+    "url": "https://number-flow.barrian.dev",
+    "github": "https://github.com/barrian/number-flow",
+    "npm": "@number-flow/svelte",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "animation", "numbers", "counter"]
+  },
+  {
+    "slug": "paneforge",
+    "name": "Paneforge",
+    "description": "An accessible, flexible resizable pane component library for Svelte built on top of Zag.js.",
+    "url": "https://paneforge.com",
+    "github": "https://github.com/sveltenexus/paneforge",
+    "npm": "paneforge",
+    "kinds": ["component-library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "resizable", "panes", "ui"]
+  },
+  {
+    "slug": "ark-ui-svelte",
+    "name": "Ark UI Svelte",
+    "description": "A headless, accessible component library built on top of Zag.js for Svelte.",
+    "url": "https://ark-ui.com",
+    "github": "https://github.com/chakra-ui/ark",
+    "npm": "@ark-ui/svelte",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "headless", "accessibility", "state-machine"]
+  },
+  {
+    "slug": "svelte-material-ui",
+    "name": "Svelte Material UI",
+    "description": "Svelte components implementing Google's Material Design UI guidelines.",
+    "url": "https://sveltematerialui.com",
+    "github": "https://github.com/hperrin/svelte-material-ui",
+    "npm": "svelte-material-ui",
+    "kinds": ["component-library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "material-design", "components", "ui"]
+  },
+  {
+    "slug": "svelte-floating-ui",
+    "name": "Svelte Floating UI",
+    "description": "Svelte wrapper for Floating UI to position tooltips, popovers, dropdowns, and more.",
+    "url": "https://floating-ui.com",
+    "github": "https://github.com/skeletonlabs/floating-ui-svelte",
+    "npm": "svelte-floating-ui",
+    "kinds": ["library"],
+    "categories": ["ui", "utilities"],
+    "tags": ["svelte", "popover", "tooltip", "positioning"]
+  },
+  {
+    "slug": "svelte-file-dropzone",
+    "name": "Svelte File Dropzone",
+    "description": "A simple drag and drop file upload component for Svelte applications.",
+    "url": "https://github.com/everweij/svelte-file-dropzone",
+    "github": "https://github.com/everweij/svelte-file-dropzone",
+    "npm": "svelte-file-dropzone",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui", "utilities"],
+    "tags": ["svelte", "dropzone", "file-upload", "drag-and-drop"]
+  },
+  {
+    "slug": "svelte-maplibre",
+    "name": "Svelte MapLibre",
+    "description": "Svelte components for MapLibre GL JS maps, rendering reactive maps effortlessly.",
+    "url": "https://svelte-maplibre.com",
+    "github": "https://github.com/dimfeld/svelte-maplibre",
+    "npm": "svelte-maplibre",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui", "data"],
+    "tags": ["svelte", "maplibre", "maps", "webgl", "gis"]
+  },
+  {
+    "slug": "carta-md",
+    "name": "Carta MD",
+    "description": "A lightweight, highly customizable Markdown editor component built for Svelte.",
+    "url": "https://carta-md.dev",
+    "github": "https://github.com/Bear29ers/carta",
+    "npm": "carta-md",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "markdown", "editor", "wysiwyg"]
+  },
+  {
+    "slug": "svelte-tiptap",
+    "name": "Svelte Tiptap",
+    "description": "Tiptap rich text editor integration component for Svelte applications.",
+    "url": "https://github.com/sveltenexus/svelte-tiptap",
+    "github": "https://github.com/sveltenexus/svelte-tiptap",
+    "npm": "svelte-tiptap",
+    "kinds": ["component-library", "library"],
+    "categories": ["ui"],
+    "tags": ["svelte", "tiptap", "rich-text", "editor", "prosemirror"]
+  },
+  {
+    "slug": "tanstack-svelte-query",
+    "name": "TanStack Svelte Query",
+    "description": "Framework-agnostic caching, synchronization, and asynchronous server-state management for Svelte.",
+    "url": "https://tanstack.com/query/latest/docs/framework/svelte/overview",
+    "github": "https://github.com/TanStack/query",
+    "npm": "https://www.npmjs.com/package/@tanstack/svelte-query",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "query",
+      "cache",
+      "server-state",
+      "async",
+      "tanstack"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "shadcn-svelte",
+    "name": "shadcn-svelte",
+    "description": "Beautiful, accessible components that you copy into your Svelte project and customize with Tailwind CSS.",
+    "url": "https://www.shadcn-svelte.com/",
+    "github": "https://github.com/huntabyte/shadcn-svelte",
+    "npm": "https://www.npmjs.com/package/shadcn-svelte",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "tailwind",
+      "accessible",
+      "copy-paste",
+      "design-system",
+      "svelte-5"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "bits-ui",
+    "name": "Bits UI",
+    "description": "Flexible, unstyled, accessible headless component primitives for building custom Svelte interfaces.",
+    "url": "https://bits-ui.com/",
+    "github": "https://github.com/huntabyte/bits-ui",
+    "npm": "https://www.npmjs.com/package/bits-ui",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "headless",
+      "accessible",
+      "unstyled",
+      "primitives",
+      "svelte-5"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "flowbite-svelte",
+    "name": "Flowbite Svelte",
+    "description": "Open-source Tailwind CSS UI components and interactive elements for Svelte applications.",
+    "url": "https://flowbite-svelte.com/",
+    "github": "https://github.com/themesberg/flowbite-svelte",
+    "npm": "https://www.npmjs.com/package/flowbite-svelte",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "tailwind",
+      "components",
+      "responsive",
+      "flowbite"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "sveltekit-superforms",
+    "name": "Superforms",
+    "description": "Server-side and client-side form handling and validation for SvelteKit with schema adapters.",
+    "url": "https://superforms.rocks/",
+    "github": "https://github.com/ciscoheat/sveltekit-superforms",
+    "npm": "https://www.npmjs.com/package/sveltekit-superforms",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "forms",
+      "validation",
+      "zod",
+      "sveltekit",
+      "typescript"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "svelte-material-ui",
+    "name": "Svelte Material UI",
+    "description": "Material Design component library for Svelte with customizable and production-ready components.",
+    "url": "https://sveltematerialui.com/",
+    "github": "https://github.com/hperrin/svelte-material-ui",
+    "npm": "https://www.npmjs.com/package/svelte-material-ui",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "material-design",
+      "components",
+      "theme",
+      "accessibility"
+    ]
+  },
+  {
+    "slug": "svelte-headless-ui",
+    "name": "Svelte Headless UI",
+    "description": "Unofficial Svelte implementation of Tailwind Labs Headless UI with accessible unstyled components.",
+    "url": "https://github.com/rgossiaux/svelte-headlessui",
+    "github": "https://github.com/rgossiaux/svelte-headlessui",
+    "npm": "https://www.npmjs.com/package/@rgossiaux/svelte-headlessui",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "headless",
+      "accessible",
+      "unstyled",
+      "tailwind"
+    ]
+  },
+  {
+    "slug": "melt-ui",
+    "name": "Melt UI",
+    "description": "Accessible, reusable, composable headless component builders and utilities for Svelte.",
+    "url": "https://melt-ui.com/",
+    "github": "https://github.com/melt-ui/melt-ui",
+    "npm": "https://www.npmjs.com/package/@melt-ui/pp",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "headless",
+      "accessible",
+      "builders",
+      "primitives",
+      "unstyled"
+    ]
+  },
+  {
+    "slug": "skeleton",
+    "name": "Skeleton",
+    "description": "Adaptive design system and UI toolkit for SvelteKit powered by Tailwind CSS.",
+    "url": "https://www.skeleton.dev/",
+    "github": "https://github.com/skeletonlabs/skeleton",
+    "npm": "https://www.npmjs.com/package/@skeletonlabs/skeleton",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "tailwind",
+      "design-system",
+      "themes",
+      "sveltekit"
+    ]
+  },
+  {
+    "slug": "carbon-components-svelte",
+    "name": "Carbon Components Svelte",
+    "description": "Svelte implementation of IBM Carbon Design System components.",
+    "url": "https://carbon-svelte.vercel.app/",
+    "github": "https://github.com/carbon-design-system/carbon-components-svelte",
+    "npm": "https://www.npmjs.com/package/carbon-components-svelte",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "carbon",
+      "ibm",
+      "enterprise",
+      "design-system"
+    ]
+  },
+  {
+    "slug": "svelte-ui",
+    "name": "SvelteUI",
+    "description": "All-in-one Svelte component library with components, actions, utilities, and animations.",
+    "url": "https://svelteui.org/",
+    "github": "https://github.com/kiuedev/svelteui",
+    "npm": "https://www.npmjs.com/package/@svelteuidev/core",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "components",
+      "utilities",
+      "animations",
+      "forms"
+    ]
+  },
+  {
+    "slug": "svelte-sonner",
+    "name": "Svelte Sonner",
+    "description": "Opinionated, lightweight toast notification component for Svelte.",
+    "url": "https://svelte-sonner.vercel.app/",
+    "github": "https://github.com/wobsoriano/svelte-sonner",
+    "npm": "https://www.npmjs.com/package/svelte-sonner",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "toast",
+      "notifications",
+      "sonner",
+      "alerts"
+    ]
+  },
+  {
+    "slug": "lucide-svelte",
+    "name": "Lucide Svelte",
+    "description": "Beautiful, consistent, customizable open-source icon components for Svelte.",
+    "url": "https://lucide.dev/guide/packages/lucide-svelte",
+    "github": "https://github.com/lucide-icons/lucide",
+    "npm": "https://www.npmjs.com/package/lucide-svelte",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "icons",
+      "svg",
+      "accessible",
+      "lucide"
+    ]
+  },
+  {
+    "slug": "svelte-icons",
+    "name": "Svelte Icons",
+    "description": "A large collection of popular icon packs exposed as Svelte components.",
+    "url": "https://github.com/敬/svelte-icons",
+    "github": "https://github.com/敬/svelte-icons",
+    "npm": "https://www.npmjs.com/package/svelte-icons",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "icons",
+      "svg",
+      "icon-packs"
+    ]
+  },
+  {
+    "slug": "svelte-fa",
+    "name": "Svelte FA",
+    "description": "Small Svelte component for rendering Font Awesome 5 and 6 icons.",
+    "url": "https://github.com/Cweiliang/svelte-fa",
+    "github": "https://github.com/Cweiliang/svelte-fa",
+    "npm": "https://www.npmjs.com/package/svelte-fa",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "icons",
+      "font-awesome",
+      "svg"
+    ]
+  },
+  {
+    "slug": "layerchart",
+    "name": "LayerChart",
+    "description": "Composable Svelte components for building a wide range of data visualizations.",
+    "url": "https://layerchart.com/",
+    "github": "https://github.com/russellgoldenberg/layercake",
+    "npm": "https://www.npmjs.com/package/layerchart",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "charts",
+      "visualization",
+      "svg",
+      "canvas",
+      "layer-cake"
+    ]
+  },
+  {
+    "slug": "layercake",
+    "name": "Layer Cake",
+    "description": "Framework for creating reusable, responsive graphics with Svelte.",
+    "url": "https://layercake.graphics/",
+    "github": "https://github.com/russellgoldenberg/layercake",
+    "npm": "https://www.npmjs.com/package/layercake",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "charts",
+      "graphics",
+      "visualization",
+      "responsive"
+    ]
+  },
+  {
+    "slug": "svelte-flow",
+    "name": "Svelte Flow",
+    "description": "Customizable Svelte components for node-based editors, diagrams, and interactive graphs.",
+    "url": "https://svelteflow.dev/",
+    "github": "https://github.com/xyflow/xyflow",
+    "npm": "https://www.npmjs.com/package/@xyflow/svelte",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "graphs",
+      "nodes",
+      "diagrams",
+      "drag-and-drop"
+    ]
+  },
+  {
+    "slug": "svelte-virtual",
+    "name": "Svelte Virtual",
+    "description": "Headless virtualization utilities for efficiently rendering large scrollable lists and grids.",
+    "url": "https://tanstack.com/virtual/latest/docs/framework/svelte/overview",
+    "github": "https://github.com/TanStack/virtual",
+    "npm": "https://www.npmjs.com/package/@tanstack/svelte-virtual",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "virtualization",
+      "lists",
+      "grids",
+      "performance"
+    ]
+  },
+  {
+    "slug": "svelte-virtual-list",
+    "name": "Svelte Virtual List",
+    "description": "Small, fast virtual list component for rendering large collections efficiently.",
+    "url": "https://github.com/Skayo/svelte-virtual-list",
+    "github": "https://github.com/Skayo/svelte-virtual-list",
+    "npm": "https://www.npmjs.com/package/svelte-virtual-list",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "virtual-list",
+      "performance",
+      "scrolling"
+    ]
+  },
+  {
+    "slug": "threlte",
+    "name": "Threlte",
+    "description": "Declarative, state-driven Three.js renderer and component library for Svelte.",
+    "url": "https://threlte.xyz/",
+    "github": "https://github.com/threlte/threlte",
+    "npm": "https://www.npmjs.com/package/@threlte/core",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "three-js",
+      "3d",
+      "webgl",
+      "renderer"
+    ]
+  },
+  {
+    "slug": "svelte-dnd-action",
+    "name": "svelte-dnd-action",
+    "description": "Accessible drag-and-drop action for Svelte lists and sortable collections.",
+    "url": "https://github.com/isaacHagoel/svelte-dnd-action",
+    "github": "https://github.com/isaacHagoel/svelte-dnd-action",
+    "npm": "https://www.npmjs.com/package/svelte-dnd-action",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "drag-and-drop",
+      "sortable",
+      "accessible",
+      "lists"
+    ]
+  },
+  {
+    "slug": "neodrag",
+    "name": "Neodrag",
+    "description": "Framework-agnostic draggable utility with a Svelte action for moving elements.",
+    "url": "https://neodrag.dev/",
+    "github": "https://github.com/PuruVJ/neodrag",
+    "npm": "https://www.npmjs.com/package/@neodrag/svelte",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "drag",
+      "gesture",
+      "resizable",
+      "interactions"
+    ]
+  },
+  {
+    "slug": "svelte-motion",
+    "name": "Svelte Motion",
+    "description": "Animation library for Svelte based on Framer Motion concepts.",
+    "url": "https://github.com/micha-lmxt/svelte-motion",
+    "github": "https://github.com/micha-lmxt/svelte-motion",
+    "npm": "https://www.npmjs.com/package/svelte-motion",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "animation",
+      "motion",
+      "transitions",
+      "gestures"
+    ]
+  },
+  {
+    "slug": "svelte-i18n",
+    "name": "svelte-i18n",
+    "description": "Internationalization library for translations, formatting, and locale management in Svelte.",
+    "url": "https://github.com/kaisermann/svelte-i18n",
+    "github": "https://github.com/kaisermann/svelte-i18n",
+    "npm": "https://www.npmjs.com/package/svelte-i18n",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "i18n",
+      "localization",
+      "translations",
+      "intl"
+    ]
+  },
+  {
+    "slug": "paraglide-js",
+    "name": "Paraglide JS",
+    "description": "Tiny, type-safe internationalization library with compile-time translated messages and links.",
+    "url": "https://inlang.com/m/gerre34r/library-inlang-paraglideJs",
+    "github": "https://github.com/opral/inlang-paraglide-js",
+    "npm": "https://www.npmjs.com/package/@inlang/paraglide-js",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "i18n",
+      "typesafe",
+      "localization",
+      "compiler"
+    ]
+  },
+  {
+    "slug": "felte",
+    "name": "Felte",
+    "description": "Extensible form library for Svelte with support for popular schema validation libraries.",
+    "url": "https://felte.dev/",
+    "github": "https://github.com/pablo-abc/felte",
+    "npm": "https://www.npmjs.com/package/felte",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "forms",
+      "validation",
+      "zod",
+      "yup"
+    ]
+  },
+  {
+    "slug": "formsnap",
+    "name": "Formsnap",
+    "description": "High-level accessible Svelte form components built on Superforms and schema validation.",
+    "url": "https://formsnap.dev/",
+    "github": "https://github.com/svecosystem/formsnap",
+    "npm": "https://www.npmjs.com/package/formsnap",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "forms",
+      "accessible",
+      "superforms",
+      "validation"
+    ]
+  },
+  {
+    "slug": "sveltekit-forms",
+    "name": "SvelteKit Forms",
+    "description": "Type-safe, progressively enhanced form utilities for SvelteKit applications.",
+    "url": "https://github.com/ciscoheat/sveltekit-superforms",
+    "github": "https://github.com/ciscoheat/sveltekit-superforms",
+    "npm": "https://www.npmjs.com/package/sveltekit-superforms",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "forms",
+      "sveltekit",
+      "validation"
+    ]
+  },
+  {
+    "slug": "svelte-query",
+    "name": "Svelte Query",
+    "description": "Svelte bindings for query, cache, and mutation management of asynchronous server data.",
+    "url": "https://github.com/SvelteStack/svelte-query",
+    "github": "https://github.com/SvelteStack/svelte-query",
+    "npm": "https://www.npmjs.com/package/svelte-query",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "query",
+      "cache",
+      "fetching",
+      "server-state"
+    ]
+  },
+  {
+    "slug": "sswr",
+    "name": "SSWR",
+    "description": "Svelte stale-while-revalidate data-fetching strategy with a simple reactive API.",
+    "url": "https://github.com/Kong/svelte-sswr",
+    "github": "https://github.com/Kong/svelte-sswr",
+    "npm": "https://www.npmjs.com/package/sswr",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "swr",
+      "fetching",
+      "cache",
+      "reactive"
+    ]
+  },
+  {
+    "slug": "svelte-table",
+    "name": "Svelte Table",
+    "description": "Headless table utilities for sorting, filtering, pagination, and rendering table data.",
+    "url": "https://github.com/juanpie/svelte-table",
+    "github": "https://github.com/juanpie/svelte-table",
+    "npm": "https://www.npmjs.com/package/svelte-table",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "table",
+      "sorting",
+      "filtering",
+      "pagination"
+    ]
+  },
+  {
+    "slug": "svelte-datatables",
+    "name": "Svelte Datatables",
+    "description": "Toolkit for creating sortable, filterable, paginated data table components in Svelte.",
+    "url": "https://github.com/vincjo/datatables",
+    "github": "https://github.com/vincjo/datatables",
+    "npm": "https://www.npmjs.com/package/@vincjo/datatables",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "datatable",
+      "sorting",
+      "filtering",
+      "pagination"
+    ]
+  },
+  {
+    "slug": "svelte-calendar",
+    "name": "Svelte Calendar",
+    "description": "Lightweight calendar and date-picker component with animations and customizable interaction.",
+    "url": "https://github.com/6e6n/svelte-calendar",
+    "github": "https://github.com/6e6n/svelte-calendar",
+    "npm": "https://www.npmjs.com/package/svelte-calendar",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "calendar",
+      "datepicker",
+      "dates",
+      "events"
+    ]
+  },
+  {
+    "slug": "date-picker-svelte",
+    "name": "Date Picker Svelte",
+    "description": "Clean, accessible date and time picker component for Svelte.",
+    "url": "https://github.com/antoine92190/date-picker-svelte",
+    "github": "https://github.com/antoine92190/date-picker-svelte",
+    "npm": "https://www.npmjs.com/package/date-picker-svelte",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "datepicker",
+      "datetime",
+      "forms",
+      "calendar"
+    ]
+  },
+  {
+    "slug": "svelte-fullcalendar",
+    "name": "Svelte FullCalendar",
+    "description": "Svelte wrapper around FullCalendar for rich event calendars and scheduling interfaces.",
+    "url": "https://github.com/6e6n/svelte-fullcalendar",
+    "github": "https://github.com/6e6n/svelte-fullcalendar",
+    "npm": "https://www.npmjs.com/package/svelte-fullcalendar",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "calendar",
+      "events",
+      "scheduling",
+      "timeline"
+    ]
+  },
+  {
+    "slug": "svelte-maplibre",
+    "name": "Svelte MapLibre",
+    "description": "Svelte bindings and components for interactive MapLibre GL maps.",
+    "url": "https://github.com/dimfeld/svelte-maplibre",
+    "github": "https://github.com/dimfeld/svelte-maplibre",
+    "npm": "https://www.npmjs.com/package/svelte-maplibre",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "maps",
+      "maplibre",
+      "geospatial",
+      "webgl"
+    ]
+  },
+  {
+    "slug": "leaflet-svelte",
+    "name": "Leaflet Svelte",
+    "description": "Svelte components and helpers for building interactive Leaflet maps.",
+    "url": "https://github.com/beyonk-adventures/svelte-leaflet",
+    "github": "https://github.com/beyonk-adventures/svelte-leaflet",
+    "npm": "https://www.npmjs.com/package/svelte-leafletjs",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "maps",
+      "leaflet",
+      "markers",
+      "geospatial"
+    ]
+  },
+  {
+    "slug": "svelte-googlemaps",
+    "name": "Svelte Google Maps",
+    "description": "Svelte components for Google Maps, markers, places, and map interactions.",
+    "url": "https://github.com/beyonk-adventures/svelte-googlemaps",
+    "github": "https://github.com/beyonk-adventures/svelte-googlemaps",
+    "npm": "https://www.npmjs.com/package/svelte-googlemaps",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "data"
+    ],
+    "tags": [
+      "maps",
+      "google-maps",
+      "places",
+      "geospatial"
+    ]
+  },
+  {
+    "slug": "svelte-pdf",
+    "name": "Svelte PDF",
+    "description": "Svelte components for rendering PDF documents using PDF.js.",
+    "url": "https://github.com/nickbalestra/svelte-pdf",
+    "github": "https://github.com/nickbalestra/svelte-pdf",
+    "npm": "https://www.npmjs.com/package/svelte-pdf",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "pdf",
+      "pdfjs",
+      "documents",
+      "viewer"
+    ]
+  },
+  {
+    "slug": "svelte-pdf-viewer",
+    "name": "Svelte PDF Viewer",
+    "description": "Production-ready PDF viewer and editor component for Svelte.",
+    "url": "https://github.com/TeamworkGuy2/flowbite-svelte-pdf",
+    "github": "https://github.com/TeamworkGuy2/flowbite-svelte-pdf",
+    "npm": "https://www.npmjs.com/package/svelte-pdf-viewer",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "pdf",
+      "viewer",
+      "documents",
+      "editor"
+    ]
+  },
+  {
+    "slug": "svelte-lexical",
+    "name": "Svelte Lexical",
+    "description": "Rich text editor components for Svelte based on Meta's Lexical framework.",
+    "url": "https://github.com/umaranis/svelte-lexical",
+    "github": "https://github.com/umaranis/svelte-lexical",
+    "npm": "https://www.npmjs.com/package/svelte-lexical",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "editor",
+      "rich-text",
+      "lexical",
+      "content"
+    ]
+  },
+  {
+    "slug": "svelte-tiptap",
+    "name": "Svelte Tiptap",
+    "description": "Svelte integration for the extensible Tiptap rich text editor.",
+    "url": "https://github.com/sibiraj-s/svelte-tiptap",
+    "github": "https://github.com/sibiraj-s/svelte-tiptap",
+    "npm": "https://www.npmjs.com/package/svelte-tiptap",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "editor",
+      "rich-text",
+      "tiptap",
+      "prosemirror"
+    ]
+  },
+  {
+    "slug": "svelte-file-dropzone",
+    "name": "Svelte File Dropzone",
+    "description": "File upload and drag-and-drop component for Svelte applications.",
+    "url": "https://github.com/diragb/svelte-file-dropzone",
+    "github": "https://github.com/diragb/svelte-file-dropzone",
+    "npm": "https://www.npmjs.com/package/svelte-file-dropzone",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "upload",
+      "files",
+      "drag-and-drop",
+      "dropzone"
+    ]
+  },
+  {
+    "slug": "svelte-cropper",
+    "name": "Svelte Cropper",
+    "description": "Image cropping component for Svelte with interactive selection and export support.",
+    "url": "https://github.com/ValentinH/svelte-cropper",
+    "github": "https://github.com/ValentinH/svelte-cropper",
+    "npm": "https://www.npmjs.com/package/svelte-cropper",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "images",
+      "crop",
+      "editor",
+      "upload"
+    ]
+  },
+  {
+    "slug": "svelte-portal",
+    "name": "Svelte Portal",
+    "description": "Svelte component for rendering content outside its parent DOM hierarchy.",
+    "url": "https://github.com/romkor/svelte-portal",
+    "github": "https://github.com/romkor/svelte-portal",
+    "npm": "https://www.npmjs.com/package/svelte-portal",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "portal",
+      "modal",
+      "overlay",
+      "dom"
+    ]
+  },
+  {
+    "slug": "svelte-teleport",
+    "name": "Svelte Teleport",
+    "description": "Component for teleporting Svelte content to another location in the DOM.",
+    "url": "https://github.com/romkor/svelte-teleport",
+    "github": "https://github.com/romkor/svelte-teleport",
+    "npm": "https://www.npmjs.com/package/svelte-teleport",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "utilities"
+    ],
+    "tags": [
+      "teleport",
+      "portal",
+      "overlay",
+      "dom"
+    ]
+  },
+  {
+    "slug": "testing-library-svelte",
+    "name": "Testing Library Svelte",
+    "description": "DOM testing utilities for Svelte that encourage user-centered component tests.",
+    "url": "https://testing-library.com/docs/svelte-testing-library/intro/",
+    "github": "https://github.com/testing-library/svelte-testing-library",
+    "npm": "https://www.npmjs.com/package/@testing-library/svelte",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "testing"
+    ],
+    "tags": [
+      "testing",
+      "dom",
+      "components",
+      "accessibility"
+    ]
+  },
+  {
+    "slug": "svelte-testing-library",
+    "name": "Svelte Testing Library",
+    "description": "Official Testing Library utilities for rendering and interacting with Svelte components in tests.",
+    "url": "https://testing-library.com/docs/svelte-testing-library/intro/",
+    "github": "https://github.com/testing-library/svelte-testing-library",
+    "npm": "https://www.npmjs.com/package/@testing-library/svelte",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "testing"
+    ],
+    "tags": [
+      "testing",
+      "vitest",
+      "dom",
+      "components"
+    ]
+  },
+  {
+    "slug": "svelte-jester",
+    "name": "Svelte Jester",
+    "description": "Jest transformer that compiles Svelte components before importing them in tests.",
+    "url": "https://github.com/sveltejs/svelte-jester",
+    "github": "https://github.com/sveltejs/svelte-jester",
+    "npm": "https://www.npmjs.com/package/svelte-jester",
+    "kinds": [
+      "library"
+    ],
+    "categories": [
+      "testing"
+    ],
+    "tags": [
+      "testing",
+      "jest",
+      "transformer",
+      "components"
+    ]
+  },
+  {
+    "slug": "svelte-french-toast",
+    "name": "Svelte French Toast",
+    "description": "Lightweight, customizable toast notification components inspired by React Hot Toast.",
+    "url": "https://github.com/kbrgl/svelte-french-toast",
+    "github": "https://github.com/kbrgl/svelte-french-toast",
+    "npm": "https://www.npmjs.com/package/svelte-french-toast",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "toast",
+      "notifications",
+      "alerts",
+      "snackbar"
+    ]
+  },
+  {
+    "slug": "svelte-confetti",
+    "name": "Svelte Confetti",
+    "description": "Confetti explosion component and utility for celebratory Svelte interfaces.",
+    "url": "https://github.com/llllll-team/svelte-confetti",
+    "github": "https://github.com/llllll-team/svelte-confetti",
+    "npm": "https://www.npmjs.com/package/svelte-confetti",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "confetti",
+      "animation",
+      "celebration"
+    ]
+  },
+  {
+    "slug": "svelte-lottie",
+    "name": "Svelte Lottie",
+    "description": "Svelte component for playing Lottie JSON animations.",
+    "url": "https://github.com/matthew-dean/svelte-lottie",
+    "github": "https://github.com/matthew-dean/svelte-lottie",
+    "npm": "https://www.npmjs.com/package/svelte-lottie",
+    "kinds": [
+      "component-library"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "tags": [
+      "lottie",
+      "animation",
+      "json",
+      "motion"
+    ]
+  }
+]
