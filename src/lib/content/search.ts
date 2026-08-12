@@ -5,9 +5,9 @@ import { resources } from './resources';
 const resourceSearch = new Fuse(resources, {
 	keys: [
 		{ name: 'name', weight: 0.5 },
-		{ name: 'tags', weight: 0.25 },
-		{ name: 'categories', weight: 0.15 },
-		{ name: 'description', weight: 0.1 }
+		{ name: 'tags', weight: 0.25 }
+		// { name: 'categories', weight: 0.15 },
+		// { name: 'description', weight: 0.1 }
 	],
 	threshold: 0.3,
 	ignoreLocation: true
