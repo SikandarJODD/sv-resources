@@ -8,7 +8,12 @@
 	let { resource }: { resource: Resource } = $props();
 </script>
 
-<Item.Root variant="outline" role="listitem" class="items-start bg-card">
+<!-- Highlight the whole card whenever one of its links has keyboard focus. -->
+<Item.Root
+	variant="outline"
+	role="listitem"
+	class="items-start bg-card focus-within:border-ring focus-within:bg-accent/50 focus-within:ring-3 focus-within:ring-ring/50"
+>
 	<Item.Media variant="image" class="border bg-muted">
 		<ResourceFavicon url={resource.url} icon={resource.icon} name={resource.name} />
 	</Item.Media>
@@ -18,10 +23,11 @@
 			<div class="min-w-0 flex-1">
 				<Item.Title>
 					<a
+						data-resource-link
 						href={resource.url}
 						target="_blank"
 						rel="noreferrer"
-						class="hover:underline focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+						class="hover:underline focus-visible:underline focus-visible:outline-none"
 					>
 						{resource.name}
 					</a>
