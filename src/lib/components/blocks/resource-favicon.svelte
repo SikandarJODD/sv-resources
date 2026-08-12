@@ -1,28 +1,42 @@
 <script lang="ts">
 	import LinkIcon from '@lucide/svelte/icons/link';
 
-	let { url, name }: { url: string; name: string } = $props();
+	let { url, icon, name }: { url: string; icon?: string; name: string } = $props();
 
-	let failedUrl = $state<string>();
+	let failedUrls = $state<string[]>([]);
 
-	let faviconUrl = $derived.by(() => {
-		try {
-			const resourceUrl = new URL(url);
-			if (!['http:', 'https:'].includes(resourceUrl.protocol)) return undefined;
+	function getWebUrl(value: string) {
+		const parsedUrl = new URL(value);
+		return ['http:', 'https:'].includes(parsedUrl.protocol) ? parsedUrl : undefined;
+	}
 
-			return `${resourceUrl.origin}/favicon.ico`;
-		} catch {
-			return undefined;
+	let faviconUrls = $derived.by(() => {
+		const urls: string[] = [];
+
+		if (icon) {
+			try {
+				const iconUrl = getWebUrl(icon);
+				if (iconUrl) urls.push(iconUrl.href);
+			} catch {}
 		}
+
+		try {
+			const resourceUrl = getWebUrl(url);
+			if (resourceUrl) urls.push(`${resourceUrl.origin}/favicon.ico`);
+		} catch {}
+
+		return [...new Set(urls)];
 	});
+
+	let faviconUrl = $derived(faviconUrls.find((candidate) => !failedUrls.includes(candidate)));
 </script>
 
-{#if faviconUrl && failedUrl !== faviconUrl}
+{#if faviconUrl}
 	<img
 		src={faviconUrl}
 		alt="{name} favicon"
 		class="bg-muted object-contain p-1.5"
-		onerror={() => (failedUrl = faviconUrl)}
+		onerror={() => (failedUrls = [...failedUrls, faviconUrl])}
 	/>
 {:else}
 	<LinkIcon class="size-4 text-muted-foreground" aria-hidden="true" />

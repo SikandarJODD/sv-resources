@@ -10,7 +10,7 @@
 
 <Item.Root variant="outline" role="listitem" class="items-start bg-card">
 	<Item.Media variant="image" class="border bg-muted">
-		<ResourceFavicon url={resource.url} name={resource.name} />
+		<ResourceFavicon url={resource.url} icon={resource.icon} name={resource.name} />
 	</Item.Media>
 
 	<Item.Content class="min-w-0 gap-2">

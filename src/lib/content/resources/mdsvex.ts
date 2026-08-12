@@ -5,6 +5,7 @@ export default {
 	name: 'mdsvex',
 	description: 'Markdown for Svelte - lets you write Svelte components inside Markdown files.',
 	url: 'https://mdsvex.pngwn.io',
+	icon: 'https://mdsvex.pngwn.io/android-icon-192x192.png',
 	github: 'https://github.com/pngwn/MDsveX',
 	npm: 'mdsvex',
 	kinds: ['library', 'tool'],

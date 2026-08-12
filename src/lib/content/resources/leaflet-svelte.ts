@@ -5,6 +5,7 @@ export default {
 	name: 'Leaflet Svelte',
 	description: 'Svelte components and helpers for building interactive Leaflet maps.',
 	url: 'https://github.com/beyonk-adventures/svelte-leaflet',
+	icon: 'https://github.com/favicon.ico',
 	github: 'https://github.com/beyonk-adventures/svelte-leaflet',
 	npm: 'https://www.npmjs.com/package/svelte-leafletjs',
 	kinds: ['component-library'],

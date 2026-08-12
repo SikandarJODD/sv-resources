@@ -5,6 +5,7 @@ export default {
 	name: 'Bits UI',
 	description: 'Headless, accessible component primitives for building custom Svelte design systems.',
 	url: 'https://bits-ui.com',
+	icon: 'https://bits-ui.com/favicon-light.svg',
 	github: 'https://github.com/huntabyte/bits-ui',
 	npm: 'bits-ui',
 	kinds: ['component-library', 'library'],

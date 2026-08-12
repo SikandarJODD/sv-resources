@@ -20,6 +20,7 @@ export type Resource = {
 	name: string;
 	description: string;
 	url: string;
+	icon?: string;
 	github?: string;
 	npm?: string;
 	kinds: ResourceKind[];

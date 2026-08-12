@@ -5,6 +5,7 @@ export default {
 	name: 'Svelte Splitpanes',
 	description: 'A reliable resizable split panes component written specifically for Svelte.',
 	url: 'https://svelte-splitpanes.vercel.app',
+	icon: 'https://svelte-splitpanes.vercel.app/favicon.png',
 	github: 'https://github.com/vegarringdal/svelte-splitpanes',
 	npm: 'svelte-splitpanes',
 	kinds: ['component-library'],

@@ -12,6 +12,7 @@ const allowedFields = new Set([
 	'name',
 	'description',
 	'url',
+	'icon',
 	'github',
 	'npm',
 	'kinds',
@@ -187,6 +188,7 @@ function validateResource(resource, index) {
 	}
 
 	validateWebUrl(resource.url, 'url', resource.slug);
+	if (resource.icon !== undefined) validateWebUrl(resource.icon, 'icon', resource.slug);
 	if (resource.github !== undefined) validateWebUrl(resource.github, 'github', resource.slug);
 
 	if (resource.npm !== undefined && (typeof resource.npm !== 'string' || !resource.npm.trim())) {
@@ -251,6 +253,7 @@ function createResourceModule(resource) {
 		'name',
 		'description',
 		'url',
+		'icon',
 		'github',
 		'npm',
 		'kinds',

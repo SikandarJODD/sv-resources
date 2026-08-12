@@ -8,6 +8,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"resource:add": "node scripts/add-resources.mjs",
+		"resource:icons": "node scripts/update-resource-icons.mjs",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",

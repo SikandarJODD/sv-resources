@@ -5,6 +5,7 @@ export default {
 	name: 'Melt UI',
 	description: 'A set of unstyled, accessible component builders for Svelte to create UI component libraries.',
 	url: 'https://melt-ui.com',
+	icon: 'https://melt-ui.com/favicon.png',
 	github: 'https://github.com/melt-ui/melt-ui',
 	npm: '@melt-ui/svelte',
 	kinds: ['library'],

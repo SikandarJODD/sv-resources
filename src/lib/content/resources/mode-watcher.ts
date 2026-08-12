@@ -5,6 +5,7 @@ export default {
 	name: 'Mode Watcher',
 	description: 'Simple and light/dark theme management component and utilities for Svelte.',
 	url: 'https://github.com/sveltenexus/mode-watcher',
+	icon: 'https://github.com/favicon.ico',
 	github: 'https://github.com/sveltenexus/mode-watcher',
 	npm: 'mode-watcher',
 	kinds: ['library'],

@@ -17,6 +17,7 @@ body:
           "name": "Example Resource",
           "description": "A short description of the resource.",
           "url": "https://example.com/",
+          "icon": "https://example.com/favicon.svg",
           "github": "https://github.com/owner/example-resource",
           "npm": "https://www.npmjs.com/package/example-resource",
           "kinds": ["library"],

@@ -5,6 +5,7 @@ export default {
 	name: 'Svelte Icons',
 	description: 'A large collection of popular icon packs exposed as Svelte components.',
 	url: 'https://github.com/敬/svelte-icons',
+	icon: 'https://github.com/favicon.ico',
 	github: 'https://github.com/敬/svelte-icons',
 	npm: 'https://www.npmjs.com/package/svelte-icons',
 	kinds: ['component-library'],

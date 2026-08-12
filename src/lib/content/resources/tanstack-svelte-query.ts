@@ -5,6 +5,7 @@ export default {
 	name: 'TanStack Query Svelte',
 	description: 'Powerful asynchronous state management and data fetching solution for Svelte.',
 	url: 'https://tanstack.com/query/latest/docs/framework/svelte/overview',
+	icon: 'https://tanstack.com/favicon-light.svg',
 	github: 'https://github.com/TanStack/query',
 	npm: '@tanstack/svelte-query',
 	kinds: ['library'],

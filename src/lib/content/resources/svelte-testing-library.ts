@@ -5,6 +5,7 @@ export default {
 	name: 'Svelte Testing Library',
 	description: 'Lightweight and complete Svelte DOM testing utilities encouraging good practices.',
 	url: 'https://testing-library.com/docs/svelte-testing-library/intro',
+	icon: 'https://testing-library.com/img/octopus-32x32.png',
 	github: 'https://github.com/testing-library/svelte-testing-library',
 	npm: '@testing-library/svelte',
 	kinds: ['library'],

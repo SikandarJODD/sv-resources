@@ -5,6 +5,7 @@ export default {
 	name: 'shadcn-svelte',
 	description: 'Beautifully designed, customizable components built for Svelte.',
 	url: 'https://www.shadcn-svelte.com',
+	icon: 'https://www.shadcn-svelte.com/favicon-16x16.png',
 	github: 'https://github.com/huntabyte/shadcn-svelte',
 	kinds: ['component-library'],
 	categories: ['ui'],

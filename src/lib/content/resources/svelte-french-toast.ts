@@ -5,6 +5,7 @@ export default {
 	name: 'Svelte French Toast',
 	description: 'Lightweight, customizable toast notification components inspired by React Hot Toast.',
 	url: 'https://github.com/kbrgl/svelte-french-toast',
+	icon: 'https://github.githubassets.com/favicons/favicon.svg',
 	github: 'https://github.com/kbrgl/svelte-french-toast',
 	npm: 'https://www.npmjs.com/package/svelte-french-toast',
 	kinds: ['component-library'],

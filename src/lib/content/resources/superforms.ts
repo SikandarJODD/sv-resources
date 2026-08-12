@@ -5,6 +5,7 @@ export default {
 	name: 'Superforms',
 	description: 'A powerful and comprehensive form management library for Svelte and SvelteKit.',
 	url: 'https://superforms.rocks',
+	icon: 'https://superforms.rocks/favicon-32x32.png?v=2',
 	github: 'https://github.com/ciscoheat/sveltekit-superforms',
 	npm: 'sveltekit-superforms',
 	kinds: ['library'],

@@ -43,3 +43,13 @@ Run:
 ```sh
 pnpm resource:add -- --input resource.json --unknown-values drop --skip-invalid --skip-existing
 ```
+
+---
+
+## For FavIcon
+
+```sh
+pnpm resource:icons -- --dry-run
+pnpm resource:icons
+pnpm resource:icons -- --refresh
+```

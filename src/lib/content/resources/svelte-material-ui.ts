@@ -5,6 +5,7 @@ export default {
 	name: 'Svelte Material UI',
 	description: 'Svelte components implementing Google\'s Material Design UI guidelines.',
 	url: 'https://sveltematerialui.com',
+	icon: 'https://sveltematerialui.com/icons/android-icon-192x192.png',
 	github: 'https://github.com/hperrin/svelte-material-ui',
 	npm: 'svelte-material-ui',
 	kinds: ['component-library'],

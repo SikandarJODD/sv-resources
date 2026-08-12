@@ -5,6 +5,7 @@ export default {
 	name: 'TanStack Virtual Svelte',
 	description: 'Headless UI for virtualizing long lists and grids efficiently in Svelte.',
 	url: 'https://tanstack.com/virtual',
+	icon: 'https://tanstack.com/favicon-light.svg',
 	github: 'https://github.com/TanStack/virtual',
 	npm: '@tanstack/svelte-virtual',
 	kinds: ['library'],
