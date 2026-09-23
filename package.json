@@ -7,6 +7,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
+		"resource:add": "node scripts/add-resources.mjs",
+		"resource:icons": "node scripts/update-resource-icons.mjs",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -15,11 +17,13 @@
 	},
 	"devDependencies": {
 		"@fontsource-variable/inter": "^5.3.0",
+		"@internationalized/date": "^3.12.3",
 		"@lucide/svelte": "^1.31.0",
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/kit": "^2.63.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@tailwindcss/vite": "^4.3.0",
+		"bits-ui": "^2.18.1",
 		"clsx": "^2.1.1",
 		"prettier": "^3.8.3",
 		"prettier-plugin-svelte": "^4.1.0",
@@ -27,11 +31,21 @@
 		"shadcn-svelte": "^1.5.0",
 		"svelte": "^5.56.1",
 		"svelte-check": "^4.6.0",
+		"svelte-meta-tags": "^5.0.2",
 		"tailwind-merge": "^3.6.0",
 		"tailwind-variants": "^3.3.1",
 		"tailwindcss": "^4.3.0",
 		"tw-animate-css": "^1.4.0",
 		"typescript": "^6.0.3",
 		"vite": "^8.0.16"
+	},
+	"dependencies": {
+		"@fontsource-variable/figtree": "^5.3.0",
+		"@fontsource-variable/geist": "^5.3.0",
+		"@fontsource-variable/geist-mono": "^5.3.0",
+		"fuse.js": "^7.5.0",
+		"mode-watcher": "^1.1.0",
+		"motion-sv": "^0.1.13",
+		"runed": "^0.37.1"
 	}
 }
